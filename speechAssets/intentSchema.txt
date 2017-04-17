@@ -17,13 +17,16 @@
       ]
     },
     {
-      "intent": "RemoveWorkoutTypeIntent",
+      "intent": "RemoveExerciseIntent",
       "slots": [
         {
           "name": "ExerciseToRemoveName",
           "type": "LIST_OF_EXERCISES"
         }
       ]
+    },
+    {
+      "intent": "RemoveAllExercisesIntent"
     },
     {
       "intent": "ReciteWorkoutIntent"

@@ -1,0 +1,71 @@
+{
+  "intents": [
+    {
+      "intent": "StartWorkoutIntent"
+    },
+    {
+      "intent": "AddExerciseIntent",
+      "slots": [
+        {
+          "name": "ExerciseToAddName",
+          "type": "LIST_OF_EXERCISES"
+        },
+        {
+          "name": "ExerciseTimeDuration",
+          "type": "AMAZON.DURATION"
+        }
+      ]
+    },
+    {
+      "intent": "RemoveWorkoutTypeIntent",
+      "slots": [
+        {
+          "name": "ExerciseToRemoveName",
+          "type": "LIST_OF_EXERCISES"
+        }
+      ]
+    },
+    {
+      "intent": "ReciteWorkoutIntent"
+    },
+    {
+      "intent": "SetMusicIntent"
+    },
+    {
+      "intent": "ShuffleWorkoutIntent"
+    },
+    {
+      "intent": "AMAZON.HelpIntent"
+    },
+    {
+      "intent": "AMAZON.StopIntent"
+    },
+    {
+      "intent": "AMAZON.CancelIntent"
+    },
+    {
+      "intent": "AMAZON.NextIntent"
+    },
+    {
+      "intent": "AMAZON.PreviousIntent"
+    },
+    {
+      "intent": "AMAZON.ShuffleOnIntent"
+    },
+    {
+      "intent": "AMAZON.ShuffleOffIntent"
+    },
+    {
+      "intent": "AMAZON.LoopOnIntent"
+    },
+    {
+      "intent": "AMAZON.LoopOffIntent"
+    },
+    {
+      "intent": "AMAZON.PauseIntent"
+    },
+    {
+      "intent": "AMAZON.ResumeIntent"
+    }
+  ]
+}

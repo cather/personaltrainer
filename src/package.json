@@ -1,0 +1,33 @@
+{
+  "name": "personaltrainer",
+  "version": "1.0.0",
+  "description": "An Alexa Skill that whips you into shape",
+  "main": "index.js",
+  "directories": {
+    "example": "examples",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cather/personaltrainer.git"
+  },
+  "keywords": [
+    "alexa",
+    "skill",
+    "workout",
+    "train",
+    "exercise"
+  ],
+  "author": "Cathy Ji",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cather/personaltrainer/issues"
+  },
+  "homepage": "https://github.com/cather/personaltrainer#readme",
+  "dependencies": {
+    "alexa-sdk": "^1.0.8"
+  }
+}

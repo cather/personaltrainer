@@ -1,0 +1,33 @@
+StartWorkoutIntent start
+StartWorkoutIntent start workout
+StartWorkoutIntent workout
+StartWorkoutIntent whip me into shape
+StartWorkoutIntent lets work out
+StartWorkoutIntent lets go
+
+RepeatWorkoutIntent lets go again
+
+AddExerciseIntent add {ExerciseToAddName} for {ExerciseTimeDuration}
+AddExerciseIntent add {ExerciseTimeDuration} of {ExerciseToAddName} 
+AddExerciseIntent add {ExerciseTimeDuration} for {ExerciseToAddName} 
+
+RemoveWorkoutTypeIntent remove {ExerciseToRemoveName}
+RemoveWorkoutTypeIntent take out {ExerciseToRemoveName}
+
+RemoveAllWorkoutsIntent remove all workouts
+RemoveAllWorkoutsIntent clear workouts
+
+ReciteWorkoutIntent read back the workouts
+ReciteWorkoutIntent recite workouts
+ReciteWorkoutIntent whats the plan
+ReciteWorkoutIntent what are we doing today
+ReciteWorkoutIntent what are we doing
+
+ShuffleWorkoutIntent shuffle workouts
+ShuffleWorkoutIntent can you shuffle workouts
+ShuffleWorkoutIntent mix up the workouts
+ShuffleWorkoutIntent can you mix up the workouts
+ShuffleWorkoutIntent shuffle the circuit
+ShuffleWorkoutIntent can you shuffle the circuit
+ShuffleWorkoutIntent mix up the circuit
+ShuffleWorkoutIntent can you mix up the circuit
